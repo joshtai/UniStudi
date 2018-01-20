@@ -1,5 +1,6 @@
 var express = require('express')
 var app = express()
+var path = require('path');
 
 app.set('port', (process.env.PORT || 5000))
 app.use(express.static(__dirname + '/public'))
@@ -8,6 +9,7 @@ app.use(express.static(__dirname + '/public'))
   response.send('Hello World!')
 })*/
 app.get('/', function (req, res) {
+  res.send('Hello World!');
   res.sendFile(path.join(__dirname + '/index.html'));
 });
 
