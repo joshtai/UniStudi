@@ -1,3 +1,2 @@
-"scripts": {
-  "start": "test.html"
-}
+web: node index.js
+
