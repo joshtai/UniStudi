@@ -4,16 +4,19 @@ var path = require('path');
 //var OpenTok = require('opentok'),
 //    opentok = new OpenTok(apiKey, apiSecret);
 
+console.log('working')
+app.set('port', (5000))
+app.get('/',function(req,res){
+  res.sendFile(path.join(__dirname+'/public/Landing.html'));
+  //__dirname : It will resolve to your project folder.
+});
+app.use(express.static(path.join(__dirname, '/public')))
 
-app.set('port', (process.env.PORT || 5000))
-app.use(express.static(__dirname + '/test.html'))
 
-/*app.get('/page2', function(request, response) {
-  //response.send("Hello You!");
-  response.sendFile(__dirname + '/public/index.html');
+app.get('/landing', function (req, res) {
+  res.sendFile(__dirname + '/public/Landing.html');
 })
-/*app.get('/', function (req, res) {
-*/
+
 app.listen(app.get('port'), function() {
   console.log("Node app is running at localhost:" + app.get('port'))
 })
