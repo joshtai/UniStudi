@@ -7,7 +7,7 @@ app.use(express.static(__dirname + '/public'))
 
 app.get('/page2', function(request, response) {
   //response.send("Hello You!");
-  response.sendFile(__dirname + '/test.html');
+  //response.sendFile(__dirname + '/test.html');
 })
 /*app.get('/', function (req, res) {
 */
