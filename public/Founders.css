@@ -5,3 +5,16 @@
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
+h1{
+  text-align: center;
+}
+
+.row{
+  text-align: center;
+  display: inline-block;
+}
+.thumbnail{
+  display:inline-block;
+  text-align: left;
+}
