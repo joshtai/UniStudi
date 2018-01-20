@@ -1,3 +1,3 @@
 "scripts": {
-  "start": "index-FINISHED.js"
+  "start": "test.html"
 }
