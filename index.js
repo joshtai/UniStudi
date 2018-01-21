@@ -5,7 +5,7 @@ var path = require('path');
 //    opentok = new OpenTok(apiKey, apiSecret);
 
 
-app.set('port', (process.env.PORT))
+app.set('port', (process.env.PORT || 5000))
 console.log('working');
 app.get('/',function(req,res){
   res.sendFile(path.join(__dirname+'/public/Landing.html'));
