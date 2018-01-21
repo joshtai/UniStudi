@@ -4,11 +4,7 @@
   "description": "A sample Node.js app using Express 4",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
-    "start": "npm start"
-=======
     "start": "node index.js"
->>>>>>> e1ee107099e86e38388e7de8601cda1093aed53a
   },
   "dependencies": {
     "express": "^4.16.2"

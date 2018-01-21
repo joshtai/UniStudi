@@ -17,11 +17,6 @@ h1{
     text-align: center;
     position: absolute;
     left: 50%
-<<<<<<< HEAD
-    transform: translateX(-50%) translateY(-50%); */
-}
-
-=======
     transform: translateX(-50%) translateY(-50%);
     } */
 
@@ -41,7 +36,6 @@ h1{
   right: 32%;
   width: 500px;
 }
->>>>>>> e1ee107099e86e38388e7de8601cda1093aed53a
 /* h2{
     color: #67727a;
     font-family: 'Open Sans', sans-serif;

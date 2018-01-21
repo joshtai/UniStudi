@@ -21,11 +21,7 @@ hr {
 }
 
 /* Set a style for all buttons */
-<<<<<<< HEAD
-button {
-=======
 .cancelbtn, .signupbtn {
->>>>>>> e1ee107099e86e38388e7de8601cda1093aed53a
   background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
