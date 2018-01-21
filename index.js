@@ -19,6 +19,6 @@ app.get('/landing', function (req, res) {
   res.sendFile(__dirname + '/public/Landing.html');
 })
 
-app.listen(app.get('port'), function() {
+app.listen(process.env.PORT || 5000, function() {
   console.log("Node app is running at localhost:" + app.get('port'))
 })
