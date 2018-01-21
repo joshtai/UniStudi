@@ -4,7 +4,8 @@ var path = require('path');
 //var OpenTok = require('opentok'),
 //    opentok = new OpenTok(apiKey, apiSecret);
 
-app.set('port', (5000))
+app.set('port', (process.env.PORT || 5000))
+console.log('working');
 app.get('/',function(req,res){
   res.sendFile(path.join(__dirname+'/public/Landing.html'));
   //__dirname : It will resolve to your project folder.
