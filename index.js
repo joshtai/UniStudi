@@ -5,7 +5,7 @@ var path = require('path');
 //    opentok = new OpenTok(apiKey, apiSecret);
 
 
-app.set('port', (process.env.PORT || 5000))
+app.set('port', (process.env.PORT))
 console.log('working');
 app.get('/',function(req,res){
   res.sendFile(path.join(__dirname+'/public/Landing.html'));
@@ -19,6 +19,6 @@ app.get('/landing', function (req, res) {
   res.sendFile(__dirname + '/public/Landing.html');
 })
 
-app.listen(process.env.PORT || 5000, function() {
+app.listen(app.get('port'), function() {
   console.log("Node app is running at localhost:" + app.get('port'))
 })
