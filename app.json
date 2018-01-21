@@ -1,0 +1,7 @@
+{
+  "name": "UniStudi",
+  "description": "Testing out a barebones template",
+  "repository": "https://github.com/joshtai/UniStudi",
+  "logo": "n/a",
+  "keywords": ["node", "express", "static"]
+}
