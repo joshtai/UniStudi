@@ -17,9 +17,31 @@ h1{
     text-align: center;
     position: absolute;
     left: 50%
+<<<<<<< HEAD
     transform: translateX(-50%) translateY(-50%); */
 }
 
+=======
+    transform: translateX(-50%) translateY(-50%);
+    } */
+
+
+.jumbotron {
+  background-image: url(./StudyImg1.jpg), url(./StudyImg2.jpg), url(./StudyImg3.jpg), url(./StudyImg4.png);
+  background-position: left, 33% 0%, 66% 0%, right;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 360px 300px, 360px 300px, 360px 300px, 360px 300px;
+
+  color: white;
+}
+
+.searchBar {
+  position:absolute;
+  top: 50%;
+  right: 32%;
+  width: 500px;
+}
+>>>>>>> e1ee107099e86e38388e7de8601cda1093aed53a
 /* h2{
     color: #67727a;
     font-family: 'Open Sans', sans-serif;
